@@ -1,0 +1,34 @@
+name: Aggiornamento Statistiche Soccerstats
+
+on:
+  schedule:
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Configura Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Installa Dipendenze
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: Esegui Scraper
+        run: python scraper.py
+
+      - name: Commit e Push dei dati
+        run: |
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "action@github.com"
+          git add dati/stats.json
+          git commit -m "Aggiornamento dati soccerstats" || exit 0
+          git push
