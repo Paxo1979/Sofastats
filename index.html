@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="it" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SofaStats & Value Bet Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        sofa: { bg: '#121212', card: '#1e1e1e', accent: '#0284c7', text: '#e5e5e5' }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-sofa-bg text-sofa-text font-sans pb-12">
+
+    <!-- Header -->
+    <header class="bg-sofa-card border-b border-gray-800 p-4 sticky top-0 z-50 flex justify-between items-center">
+        <h1 class="text-xl font-bold text-sky-500 tracking-wide">VALUE BET <span class="text-xs text-gray-400">ENGINE</span></h1>
+        <div id="status" class="text-xs text-green-400 font-semibold">● Pronto</div>
+    </header>
+
+    <main class="max-w-3xl mx-auto p-3 space-y-4">
+
+        <!-- Selezione Squadre e Arbitro -->
+        <section class="bg-sofa-card p-4 rounded-xl border border-gray-800 space-y-3">
+            <h2 class="text-sm font-bold text-gray-400 uppercase">Match & Setup Arbitrale</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
+                <select id="select-lega" onchange="caricaSquadre()" class="bg-gray-800 border border-gray-700 text-sm rounded-lg p-2.5 text-white w-full">
+                    <option value="">-- Seleziona Lega --</option>
+                </select>
+                <select id="sq-casa" onchange="calcolaTutto()" class="bg-gray-800 border border-gray-700 text-sm rounded-lg p-2.5 text-white w-full">
+                    <option value="">Squadra Casa</option>
+                </select>
+                <select id="sq-fuori" onchange="calcolaTutto()" class="bg-gray-800 border border-gray-700 text-sm rounded-lg p-2.5 text-white w-full">
+                    <option value="">Squadra Trasferta</option>
+                </select>
+            </div>
+
+            <!-- Input Arbitro per Cartellini -->
+            <div class="pt-2 border-t border-gray-800 flex items-center justify-between">
+                <label class="text-xs text-gray-300 font-semibold">Media Cartellini Arbitro (es. 4.5):</label>
+                <input type="number" id="input-arbitro" value="4.0" step="0.1" min="1" max="10" oninput="calcolaTutto()" 
+                    class="bg-gray-800 border border-gray-700 text-sm rounded-lg p-2 text-white w-24 text-center font-bold text-yellow-400">
+            </div>
+        </section>
+
+        <!-- Sezione Risultati -->
+        <div id="box-stats" class="hidden space-y-4">
+
+            <!-- 1. PRONOSTICO STATISTICO (Fatti & Concessi) -->
+            <div class="bg-sofa-card p-4 rounded-xl border border-gray-800 space-y-3">
+                <h3 class="font-bold text-sm text-sky-400 uppercase border-b border-gray-800 pb-2 flex justify-between items-center">
+                    <span>1. Analisi Statistica (Fatti & Concessi)</span>
+                    <span class="text-xs text-gray-400 font-normal">Media Ultime 6 Gare</span>
+                </h3>
+                <div id="container-medie" class="space-y-3 text-sm"></div>
+            </div>
+
+            <!-- 2. MODELLO POISSON & VALUE BETTING -->
+            <div class="bg-sofa-card p-4 rounded-xl border border-gray-800 space-y-3">
+                <h3 class="font-bold text-sm text-green-400 uppercase border-b border-gray-800 pb-2">
+                    2. Modello Poisson & Quote Valore (Value Bet)
+                </h3>
+                <div class="space-y-4 text-xs">
+                    <!-- GOL U/O 1.5, 2.5, 3.5 -->
+                    <div class="bg-gray-900 p-3 rounded-lg border border-gray-800 space-y-2">
+                        <div class="font-bold text-gray-300">GOL - Mercati Under / Over</div>
+                        <div id="poisson-gol" class="grid grid-cols-3 gap-2"></div>
+                    </div>
+                    <!-- CORNER U/O 7.5, 8.5, 9.5 -->
+                    <div class="bg-gray-900 p-3 rounded-lg border border-gray-800 space-y-2">
+                        <div class="font-bold text-gray-300">CORNER - Soglie 7.5 | 8.5 | 9.5</div>
+                        <div id="poisson-corner" class="grid grid-cols-3 gap-2"></div>
+                    </div>
+                    <!-- TIRI IN PORTA & CARTELLINI -->
+                    <div class="bg-gray-900 p-3 rounded-lg border border-gray-800 space-y-2">
+                        <div class="font-bold text-gray-300">Tiri in Porta & Cartellini (Stima Poisson)</div>
+                        <div id="poisson-speciali" class="grid grid-cols-2 gap-2"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. CALCOLATORE QUOTE 1X2 FINALI -->
+            <div class="bg-sofa-card p-4 rounded-xl border border-gray-800 space-y-2">
+                <h3 class="font-bold text-sm text-yellow-400 text-center uppercase">Esito Finale 1X2 (Poisson Matematico)</h3>
+                <div class="grid grid-cols-3 gap-2 text-center">
+                    <div class="bg-gray-800 p-2 rounded-lg border border-gray-700">
+                        <div class="text-[10px] text-gray-400">1 | Quota Equa</div>
+                        <div id="q-1" class="text-sm font-bold text-green-400">-</div>
+                    </div>
+                    <div class="bg-gray-800 p-2 rounded-lg border border-gray-700">
+                        <div class="text-[10px] text-gray-400">X | Quota Equa</div>
+                        <div id="q-x" class="text-sm font-bold text-yellow-400">-</div>
+                    </div>
+                    <div class="bg-gray-800 p-2 rounded-lg border border-gray-700">
+                        <div class="text-[10px] text-gray-400">2 | Quota Equa</div>
+                        <div id="q-2" class="text-sm font-bold text-red-400">-</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <script>
+        let database = {};
+
+        async function init() {
+            try {
+                let res = await fetch('dati/stats.json?v=' + new Date().getTime());
+                database = await res.json();
+                let selectLega = document.getElementById('select-lega');
+                selectLega.innerHTML = '<option value="">-- Seleziona Competizione --</option>';
+                for (let key in database) {
+                    let opt = document.createElement('option');
+                    opt.value = key;
+                    opt.textContent = database[key].nome_lega;
+                    selectLega.appendChild(opt);
+                }
+            } catch (e) {
+                document.getElementById('status').textContent = '● In attesa dati...';
+                document.getElementById('status').className = 'text-xs text-yellow-500 font-semibold';
+            }
+        }
+
+        function caricaSquadre() {
+            let legaKey = document.getElementById('select-lega').value;
+            let sqCasa = document.getElementById('sq-casa');
+            let sqFuori = document.getElementById('sq-fuori');
+            sqCasa.innerHTML = '<option value="">Squadra Casa</option>';
+            sqFuori.innerHTML = '<option value="">Squadra Trasferta</option>';
+            if (!legaKey || !database[legaKey]) return;
+
+            let squadre = database[legaKey].squadre;
+            for (let sq in squadre) {
+                sqCasa.appendChild(new Option(sq, sq));
+                sqFuori.appendChild(new Option(sq, sq));
+            }
+        }
+
+        function poissonProb(lambda, k, isOver) {
+            let p = 0;
+            for (let i = 0; i <= k; i++) {
+                p += (Math.pow(lambda, i) * Math.exp(-lambda)) / fattoriale(i);
+            }
+            let probOver = 1 - p;
+            return isOver ? probOver : p;
+        }
+
+        function fattoriale(n) {
+            if (n === 0 || n === 1) return 1;
+            let res = 1;
+            for (let i = 2; i <= n; i++) res *= i;
+            return res;
+        }
+
+        function probToQuota(prob) {
+            if (prob <= 0.01) return "99.00";
+            let q = 1 / prob;
+            return q.toFixed(2);
+        }
+
+        function calcolaTutto() {
+            let legaKey = document.getElementById('select-lega').value;
+            let c = document.getElementById('sq-casa').value;
+            let f = document.getElementById('sq-fuori').value;
+            let arb = parseFloat(document.getElementById('input-arbitro').value) || 4.0;
+
+            if (!legaKey || !c || !f || c === f) {
+                document.getElementById('box-stats').classList.add('hidden');
+                return;
+            }
+
+            let dCasa = database[legaKey].squadre[c].ultime_6;
+            let dFuori = database[legaKey].squadre[f].ultime_6;
+
+            let containerMedie = document.getElementById('container-medie');
+            containerMedie.innerHTML = '';
+
+            let metriche = [
+                { nome: 'Gol Fatti / Subiti', f1: dCasa.gf, c1: dFuori.gs, f2: dFuori.gf, c2: dCasa.gs },
+                { nome: 'Tiri in Porta', f1: dCasa.tiri_fatti, c1: dFuori.tiri_subiti, f2: dFuori.tiri_fatti, c2: dFuori.tiri_subiti },
+                { nome: 'Corner', f1: dCasa.corner_fatti, c1: dFuori.corner_concessi, f2: dFuori.corner_fatti, c2: dFuori.corner_concessi },
+                { nome: 'Cartellini', f1: dCasa.cartellini_fatti, c1: dFuori.cartellini_subiti, f2: dFuori.cartellini_fatti, c2: dCasa.cartellini_subiti }
+            ];
+
+            metriche.forEach(m => {
+                let attesaSquadra1 = (m.f1 + m.c1) / 2;
+                let attesaSquadra2 = (m.f2 + m.c2) / 2;
+                containerMedie.innerHTML += `
+                    <div class="bg-gray-900 p-2.5 rounded-lg border border-gray-800 flex justify-between items-center">
+                        <div>
+                            <div class="font-bold text-gray-200">${m.nome}</div>
+                            <div class="text-[11px] text-gray-400">${c}: Fatti ${m.f1} / Concessi ${m.c1}</div>
+                            <div class="text-[11px] text-gray-400">${f}: Fatti ${m.f2} / Concessi ${m.c2}</div>
+                        </div>
+                        <div class="text-right">
+                            <span class="text-xs text-gray-400">Media Attesa</span>
+                            <div class="text-sm font-bold text-sky-400">${(attesaSquadra1 + attesaSquadra2).toFixed(1)}</div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            let lambdaGol = ((dCasa.gf + dFuori.gs) / 2 + (dFuori.gf + dCasa.gs) / 2);
+            let lambdaCorner = ((dCasa.corner_fatti + dFuori.corner_concessi) / 2 + (dFuori.corner_fatti + dCasa.corner_concessi) / 2);
+            let lambdaTiri = ((dCasa.tiri_fatti + dFuori.tiri_subiti) / 2 + (dFuori.tiri_fatti + dCasa.tiri_subiti) / 2);
+            let lambdaCart = (((dCasa.cartellini_fatti + dFuori.cartellini_subiti) / 2 + (dFuori.cartellini_fatti + dCasa.cartellini_subiti) / 2) + arb) / 2;
+
+            let boxGol = document.getElementById('poisson-gol');
+            boxGol.innerHTML = '';
+            [1.5, 2.5, 3.5].forEach(soglia => {
+                let pOver = poissonProb(lambdaGol, soglia, true);
+                let pUnder = 1 - pOver;
+                boxGol.innerHTML += `
+                    <div class="bg-gray-800 p-2 rounded text-center">
+                        <div class="text-[10px] text-gray-400 font-bold">O/U ${soglia} (Tot: ${lambdaGol.toFixed(2)})</div>
+                        <div class="text-xs text-green-400 font-semibold">Over: ${(pOver*100).toFixed(0)}% (@${probToQuota(pOver)})</div>
+                        <div class="text-xs text-yellow-400 font-semibold">Under: ${(pUnder*100).toFixed(0)}% (@${probToQuota(pUnder)})</div>
+                    </div>
+                `;
+            });
+
+            let boxCorner = document.getElementById('poisson-corner');
+            boxCorner.innerHTML = '';
+            [7.5, 8.5, 9.5].forEach(soglia => {
+                let pOver = poissonProb(lambdaCorner, soglia, true);
+                let pUnder = 1 - pOver;
+                boxCorner.innerHTML += `
+                    <div class="bg-gray-800 p-2 rounded text-center">
+                        <div class="text-[10px] text-gray-400 font-bold">O/U ${soglia} (Tot: ${lambdaCorner.toFixed(1)})</div>
+                        <div class="text-xs text-green-400 font-semibold">Over: ${(pOver*100).toFixed(0)}% (@${probToQuota(pOver)})</div>
+                        <div class="text-xs text-yellow-400 font-semibold">Under: ${(pUnder*100).toFixed(0)}% (@${probToQuota(pUnder)})</div>
+                    </div>
+                `;
+            });
+
+            let boxSpeciali = document.getElementById('poisson-speciali');
+            boxSpeciali.innerHTML = `
+                <div class="bg-gray-800 p-2 rounded text-center">
+                    <div class="text-[10px] text-gray-400 font-bold">Tiri in Porta (Tot: ${lambdaTiri.toFixed(1)})</div>
+                    <div class="text-xs text-sky-400 font-semibold">Over 8.5: ${(poissonProb(lambdaTiri, 8.5, true)*100).toFixed(0)}% (@${probToQuota(poissonProb(lambdaTiri, 8.5, true))})</div>
+                </div>
+                <div class="bg-gray-800 p-2 rounded text-center">
+                    <div class="text-[10px] text-gray-400 font-bold">Cartellini (Tot+Arb: ${lambdaCart.toFixed(1)})</div>
+                    <div class="text-xs text-yellow-400 font-semibold">Over 3.5: ${(poissonProb(lambdaCart, 3.5, true)*100).toFixed(0)}% (@${probToQuota(poissonProb(lambdaCart, 3.5, true))})</div>
+                </div>
+            `;
+
+            let expC = (dCasa.gf + dFuori.gs) / 2;
+            let expF = (dFuori.gf + dCasa.gs) / 2;
+            let prob1 = Math.min(0.85, Math.max(0.10, expC / (expC + expF + 0.4)));
+            let prob2 = Math.min(0.85, Math.max(0.10, expF / (expC + expF + 0.4)));
+            let probX = 1 - (prob1 + prob2);
+
+            document.getElementById('q-1').textContent = probToQuota(prob1);
+            document.getElementById('q-x').textContent = probToQuota(probX);
+            document.getElementById('q-2').textContent = probToQuota(prob2);
+
+            document.getElementById('box-stats').classList.remove('hidden');
+        }
+
+        init();
+    </script>
+</body>
+</html>
