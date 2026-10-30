@@ -31,7 +31,7 @@ for chiave, info in LEGHE.items():
     
     url = f"https://www.soccerstats.com/homeaway.asp?league={info['code']}"
     try:
-        res = requests.get(url, headers=headers, timeout=8)
+        res = requests.get(url, headers=headers, timeout=10)
         if res.status_code == 200:
             soup = BeautifulSoup(res.text, 'html.parser')
             for tab in soup.find_all('table'):
@@ -80,10 +80,10 @@ for chiave, info in LEGHE.items():
                             except Exception:
                                 pass
     except Exception as e:
-        print(f"Errore caricamento {info['nome']}: {e}")
+        print(f"Errore {info['nome']}: {e}")
 
 percorso_file = os.path.join('dati', 'stats.json')
 with open(percorso_file, 'w', encoding='utf-8') as f:
     json.dump(dati_finali, f, ensure_ascii=False, indent=4)
 
-print("Scraping completato con successo!")
+print("Scraping completato ufficialmente!")
