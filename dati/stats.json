@@ -1,39 +1,4944 @@
 {
     "serie_a": {
         "nome_lega": "Serie A",
-        "squadre": {}
+        "squadre": {
+            "AR": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "10": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 5.0,
+                    "gs": 13.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 0.56,
+                    "gs": 0.56,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.78,
+                    "gs": 6.78,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "11": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 5.0,
+                    "gs": 11.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 0.56,
+                    "gs": 0.56,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.78,
+                    "gs": 5.78,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "12": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 11.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 4.0,
+                    "gs": 4.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 4.0,
+                    "gs": 7.5,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "13": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 3.0,
+                    "gs": 10.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.1,
+                    "gs": 1.2,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.05,
+                    "gs": 5.6,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "14": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 5.0,
+                    "gs": 9.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 0.83,
+                    "gs": 0.83,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.92,
+                    "gs": 4.92,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "15": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 5.0,
+                    "gs": 8.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 5.0,
+                    "gs": 5.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 5.0,
+                    "gs": 6.5,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "16": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 5.0,
+                    "gs": 7.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 5.0,
+                    "gs": 5.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 5.0,
+                    "gs": 6.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "17": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 5.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.5,
+                    "gs": 3.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "18": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 5.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.33,
+                    "gs": 1.33,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.67,
+                    "gs": 3.17,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "19": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 5.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.1,
+                    "gs": 1.2,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.55,
+                    "gs": 3.1,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "20": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 3.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.1,
+                    "gs": 1.2,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.55,
+                    "gs": 2.1,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "Points\n\n\n\nGP\npts\n\n\n\n\nInter Milan\n9\n\r\n25\r\n\n\n\n\n\nLazio\n9\n\r\n25\r\n\n\n\n\n\nAS Roma\n9\n\r\n21\r\n\n\n\n\n\nComo\n9\n\r\n20\r\n\n\n\n\n\nAC Milan\n9\n\r\n18\r\n\n\n\n\n\nFrosinone\n9\n\r\n17\r\n\n\n\n\n\nNapoli\n9\n\r\n14\r\n\n\n\n\n\nJuventus\n9\n\r\n14\r\n\n\n\n\n\nTorino\n9\n\r\n13\r\n\n\n\n\n\nCagliari\n9\n\r\n13\r\n\n\n\n\n\nBologna\n9\n\r\n11\r\n\n\n\n\n\nAtalanta\n9\n\r\n11\r\n\n\n\n\n\nGenoa\n9\n\r\n10\r\n\n\n\n\n\nLecce\n9\n\r\n9\r\n\n\n\n\n\nSassuolo\n9\n\r\n8\r\n\n\n\n\n\nMonza\n9\n\r\n7\r\n\n\n\n\n\nUdinese\n9\n\r\n5\r\n\n\n\n\n\nFiorentina\n9\n\r\n5\r\n\n\n\n\n\nParma\n9\n\r\n5\r\n\n\n\n\n\nVenezia\n9\n\r\n3": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 9.0,
+                    "gs": 25.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 5.0,
+                    "gs": 13.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "Offence (last 8)\n\n\n\nGP\nGF\n\n\n\n\nFrosinone\n8\n\r\n22\r\n\n\n\n\n\nInter Milan\n8\n\r\n21\r\n\n\n\n\n\nLazio\n8\n\r\n21\r\n\n\n\n\n\nAS Roma\n8\n\r\n19\r\n\n\n\n\n\nAC Milan\n8\n\r\n16\r\n\n\n\n\n\nComo\n8\n\r\n16\r\n\n\n\n\n\nMonza\n8\n\r\n15\r\n\n\n\n\n\nNapoli\n8\n\r\n15\r\n\n\n\n\n\nAtalanta\n8\n\r\n14\r\n\n\n\n\n\nSassuolo\n8\n\r\n13\r\n\n\n\n\n\nTorino\n8\n\r\n13\r\n\n\n\n\n\nBologna\n8\n\r\n12\r\n\n\n\n\n\nFiorentina\n8\n\r\n11\r\n\n\n\n\n\nJuventus\n8\n\r\n10\r\n\n\n\n\n\nGenoa\n8\n\r\n8\r\n\n\n\n\n\nLecce\n8\n\r\n8\r\n\n\n\n\n\nUdinese\n8\n\r\n8\r\n\n\n\n\n\nCagliari\n8\n\r\n7\r\n\n\n\n\n\nVenezia\n8\n\r\n6\r\n\n\n\n\n\nParma\n8\n\r\n5": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 8.0,
+                    "gs": 22.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 4.5,
+                    "gs": 11.5,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "0 pt\n\n25 pts\n\n\n\n5th Segment\n4th Segment\n3rd Segment\n2nd Segment\n1st Segment\n\n\nup to 4.6 pts\nfrom 4.7 to 9.7 pts\nfrom 9.8 to 14.8 pts\nfrom 14.9 to 19.9 pts\nfrom 20.0 to 25 pts\n\n\n\n(9)  3 \r\n\r\nVenezia\r\n\r\n\n\n(9)  9 \r\n\r\nLecce\r\n\r\n(9)  8 \r\n\r\nSassuolo\r\n\r\n(9)  7 \r\n\r\nMonza\r\n\r\n(9)  5 \r\n\r\nUdinese\r\n\r\n(9)  5 \r\n\r\nFiorentina\r\n\r\n(9)  5 \r\n\r\nParma\r\n\r\n\n\n(9)  14 \r\n\r\nNapoli\r\n\r\n(9)  14 \r\n\r\nJuventus\r\n\r\n(9)  13 \r\n\r\nTorino\r\n\r\n(9)  13 \r\n\r\nCagliari\r\n\r\n(9)  11 \r\n\r\nBologna\r\n\r\n(9)  11 \r\n\r\nAtalanta\r\n\r\n(9)  10 \r\n\r\nGenoa\r\n\r\n\n\n(9)  18 \r\n\r\nAC Milan\r\n\r\n(9)  17 \r\n\r\nFrosinone\r\n\r\n\n\n(9)  25 \r\n\r\nInter Milan\r\n\r\n(9)  25 \r\n\r\nLazio\r\n\r\n(9)  21 \r\n\r\nAS Roma\r\n\r\n(9)  20 \r\n\r\nComo": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "Latest results": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "90 matches played / 380\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n23.7% completed": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "F.A.Q.": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            }
+        }
     },
     "premier_league": {
         "nome_lega": "Premier League",
-        "squadre": {}
+        "squadre": {
+            "AR": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "10": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 10.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.5,
+                    "gs": 5.5,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "11": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 10.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.33,
+                    "gs": 1.33,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.67,
+                    "gs": 5.67,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "12": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 10.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.33,
+                    "gs": 1.33,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.67,
+                    "gs": 5.67,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "13": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 9.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.5,
+                    "gs": 5.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "14": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 9.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 0.8,
+                    "gs": 0.8,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.4,
+                    "gs": 4.9,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "15": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 8.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 0.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.0,
+                    "gs": 4.5,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "16": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 7.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.33,
+                    "gs": 1.33,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.67,
+                    "gs": 4.17,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "17": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 7.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.5,
+                    "gs": 4.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "18": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 6.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 0.8,
+                    "gs": 0.8,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.4,
+                    "gs": 3.4,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "19": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 6.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 0.0,
+                    "gs": 1.33,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.0,
+                    "gs": 3.67,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "20": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 5.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 4.0,
+                    "gs": 4.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 4.0,
+                    "gs": 4.5,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "Points\n\n\n\nGP\npts\n\n\n\n\nManchester C.\n8\n\r\n21\r\n\n\n\n\n\nArsenal\n8\n\r\n21\r\n\n\n\n\n\nBrighton\n8\n\r\n16\r\n\n\n\n\n\nLiverpool\n8\n\r\n15\r\n\n\n\n\n\nChelsea\n8\n\r\n13\r\n\n\n\n\n\nBrentford\n8\n\r\n11\r\n\n\n\n\n\nLeeds Utd\n8\n\r\n11\r\n\n\n\n\n\nNewcastle Utd\n8\n\r\n11\r\n\n\n\n\n\nAston Villa\n8\n\r\n11\r\n\n\n\n\n\nHull City\n8\n\r\n10\r\n\n\n\n\n\nEverton\n8\n\r\n10\r\n\n\n\n\n\nIpswich Town\n8\n\r\n10\r\n\n\n\n\n\nBournemouth\n8\n\r\n9\r\n\n\n\n\n\nTottenham\n8\n\r\n9\r\n\n\n\n\n\nFulham\n8\n\r\n8\r\n\n\n\n\n\nManchester U.\n8\n\r\n7\r\n\n\n\n\n\nCrystal Pala.\n8\n\r\n7\r\n\n\n\n\n\nNottm Forest\n8\n\r\n6\r\n\n\n\n\n\nCoventry City\n8\n\r\n6\r\n\n\n\n\n\nSunderland\n8\n\r\n5": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 8.0,
+                    "gs": 21.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 4.5,
+                    "gs": 11.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "Offence (last 8)\n\n\n\nGP\nGF\n\n\n\n\nBrighton\n8\n\r\n23\r\n\n\n\n\n\nManchester C.\n8\n\r\n20\r\n\n\n\n\n\nChelsea\n8\n\r\n17\r\n\n\n\n\n\nBrentford\n8\n\r\n14\r\n\n\n\n\n\nArsenal\n8\n\r\n13\r\n\n\n\n\n\nBournemouth\n8\n\r\n12\r\n\n\n\n\n\nIpswich Town\n8\n\r\n12\r\n\n\n\n\n\nNewcastle Utd\n8\n\r\n12\r\n\n\n\n\n\nLiverpool\n8\n\r\n11\r\n\n\n\n\n\nManchester U.\n8\n\r\n10\r\n\n\n\n\n\nAston Villa\n8\n\r\n9\r\n\n\n\n\n\nCrystal Pala.\n8\n\r\n9\r\n\n\n\n\n\nHull City\n8\n\r\n9\r\n\n\n\n\n\nLeeds Utd\n8\n\r\n9\r\n\n\n\n\n\nEverton\n8\n\r\n8\r\n\n\n\n\n\nFulham\n8\n\r\n8\r\n\n\n\n\n\nTottenham\n8\n\r\n8\r\n\n\n\n\n\nCoventry City\n8\n\r\n6\r\n\n\n\n\n\nNottm Forest\n8\n\r\n6\r\n\n\n\n\n\nSunderland\n8\n\r\n6": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 8.0,
+                    "gs": 23.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 4.5,
+                    "gs": 12.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "0 pt\n\n21 pts\n\n\n\n5th Segment\n4th Segment\n3rd Segment\n2nd Segment\n1st Segment\n\n\nup to 3.8 pts\nfrom 3.9 to 8.1 pts\nfrom 8.2 to 12.4 pts\nfrom 12.5 to 16.7 pts\nfrom 16.8 to 21 pts\n\n\n\n\n\n(8)  8 \r\n\r\nFulham\r\n\r\n(8)  7 \r\n\r\nManchester Utd\r\n\r\n(8)  7 \r\n\r\nCrystal Palace\r\n\r\n(8)  6 \r\n\r\nNottm Forest\r\n\r\n(8)  6 \r\n\r\nCoventry City\r\n\r\n(8)  5 \r\n\r\nSunderland\r\n\r\n\n\n(8)  11 \r\n\r\nBrentford\r\n\r\n(8)  11 \r\n\r\nLeeds Utd\r\n\r\n(8)  11 \r\n\r\nNewcastle Utd\r\n\r\n(8)  11 \r\n\r\nAston Villa\r\n\r\n(8)  10 \r\n\r\nHull City\r\n\r\n(8)  10 \r\n\r\nEverton\r\n\r\n(8)  10 \r\n\r\nIpswich Town\r\n\r\n(8)  9 \r\n\r\nBournemouth\r\n\r\n(8)  9 \r\n\r\nTottenham\r\n\r\n\n\n(8)  16 \r\n\r\nBrighton\r\n\r\n(8)  15 \r\n\r\nLiverpool\r\n\r\n(8)  13 \r\n\r\nChelsea\r\n\r\n\n\n(8)  21 \r\n\r\nManchester City\r\n\r\n(8)  21 \r\n\r\nArsenal": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "Latest results": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "80 matches played / 380\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n21.1% completed": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "F.A.Q.": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            }
+        }
     },
     "la_liga": {
         "nome_lega": "La Liga",
-        "squadre": {}
+        "squadre": {
+            "AR": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "10": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 6.0,
+                    "gs": 12.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 0.75,
+                    "gs": 0.75,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 3.38,
+                    "gs": 6.38,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "11": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 5.0,
+                    "gs": 11.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 3.0,
+                    "gs": 6.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "12": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 5.0,
+                    "gs": 11.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.67,
+                    "gs": 1.67,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 3.33,
+                    "gs": 6.33,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "13": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 5.0,
+                    "gs": 11.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.1,
+                    "gs": 1.2,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 3.05,
+                    "gs": 6.1,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "14": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 6.0,
+                    "gs": 10.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 2.0,
+                    "gs": 2.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 4.0,
+                    "gs": 6.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "15": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 6.0,
+                    "gs": 10.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 0.67,
+                    "gs": 0.67,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 3.33,
+                    "gs": 5.33,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "16": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 5.0,
+                    "gs": 9.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 2.5,
+                    "gs": 2.5,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 3.75,
+                    "gs": 5.75,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "17": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 5.0,
+                    "gs": 9.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.1,
+                    "gs": 1.2,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 3.05,
+                    "gs": 5.1,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "18": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 5.0,
+                    "gs": 8.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 0.0,
+                    "gs": 1.25,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.5,
+                    "gs": 4.62,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "19": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 6.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.5,
+                    "gs": 3.5,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "20": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 5.0,
+                    "gs": 5.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 2.5,
+                    "gs": 2.5,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 3.75,
+                    "gs": 3.75,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "Points\n\n\n\nGP\npts\n\n\n\n\nFC Barcelona\n10\n\r\n27\r\n\n\n\n\n\nAtletico Mad.\n10\n\r\n25\r\n\n\n\n\n\nReal Madrid\n10\n\r\n24\r\n\n\n\n\n\nReal Betis\n10\n\r\n20\r\n\n\n\n\n\nReal Sociedad\n10\n\r\n19\r\n\n\n\n\n\nSevilla FC\n10\n\r\n17\r\n\n\n\n\n\nAlaves\n10\n\r\n12\r\n\n\n\n\n\nAthletic Bil.\n9\n\r\n12\r\n\n\n\n\n\nCelta Vigo\n10\n\r\n12\r\n\n\n\n\n\nVillarreal\n10\n\r\n12\r\n\n\n\n\n\nDeportivo\n10\n\r\n11\r\n\n\n\n\n\nOsasuna\n10\n\r\n11\r\n\n\n\n\n\nRacing\n10\n\r\n11\r\n\n\n\n\n\nLevante\n10\n\r\n10\r\n\n\n\n\n\nElche\n10\n\r\n10\r\n\n\n\n\n\nRayo Valleca.\n9\n\r\n9\r\n\n\n\n\n\nGetafe\n10\n\r\n9\r\n\n\n\n\n\nEspanyol\n10\n\r\n8\r\n\n\n\n\n\nValencia\n10\n\r\n6\r\n\n\n\n\n\nMalaga\n10\n\r\n5": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 10.0,
+                    "gs": 27.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 5.5,
+                    "gs": 14.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "Offence (last 8)\n\n\n\nGP\nGF\n\n\n\n\nFC Barcelona\n8\n\r\n33\r\n\n\n\n\n\nReal Madrid\n8\n\r\n19\r\n\n\n\n\n\nReal Sociedad\n8\n\r\n18\r\n\n\n\n\n\nAtletico Mad.\n8\n\r\n16\r\n\n\n\n\n\nLevante\n8\n\r\n16\r\n\n\n\n\n\nReal Betis\n8\n\r\n14\r\n\n\n\n\n\nElche\n8\n\r\n13\r\n\n\n\n\n\nRacing\n8\n\r\n13\r\n\n\n\n\n\nAthletic Bil.\n8\n\r\n11\r\n\n\n\n\n\nDeportivo\n8\n\r\n11\r\n\n\n\n\n\nRayo Valleca.\n8\n\r\n11\r\n\n\n\n\n\nSevilla FC\n8\n\r\n11\r\n\n\n\n\n\nVillarreal\n8\n\r\n11\r\n\n\n\n\n\nAlaves\n8\n\r\n10\r\n\n\n\n\n\nCelta Vigo\n8\n\r\n9\r\n\n\n\n\n\nEspanyol\n8\n\r\n8\r\n\n\n\n\n\nOsasuna\n8\n\r\n8\r\n\n\n\n\n\nValencia\n8\n\r\n7\r\n\n\n\n\n\nMalaga\n8\n\r\n6\r\n\n\n\n\n\nGetafe\n8\n\r\n4": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 8.0,
+                    "gs": 33.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 4.5,
+                    "gs": 17.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "0 pt\n\n27 pts\n\n\n\n5th Segment\n4th Segment\n3rd Segment\n2nd Segment\n1st Segment\n\n\nup to 5.0 pts\nfrom 5.1 to 10.5 pts\nfrom 10.6 to 16.0 pts\nfrom 16.1 to 21.5 pts\nfrom 21.6 to 27 pts\n\n\n\n(10)  5 \r\n\r\nMalaga\r\n\r\n\n\n(10)  10 \r\n\r\nLevante\r\n\r\n(10)  10 \r\n\r\nElche\r\n\r\n(9)  9 \r\n\r\nRayo Vallecano\r\n\r\n(10)  9 \r\n\r\nGetafe\r\n\r\n(10)  8 \r\n\r\nEspanyol\r\n\r\n(10)  6 \r\n\r\nValencia\r\n\r\n\n\n(10)  12 \r\n\r\nAlaves\r\n\r\n(9)  12 \r\n\r\nAthletic Bilbao\r\n\r\n(10)  12 \r\n\r\nCelta Vigo\r\n\r\n(10)  12 \r\n\r\nVillarreal\r\n\r\n(10)  11 \r\n\r\nDeportivo\r\n\r\n(10)  11 \r\n\r\nOsasuna\r\n\r\n(10)  11 \r\n\r\nRacing\r\n\r\n\n\n(10)  20 \r\n\r\nReal Betis\r\n\r\n(10)  19 \r\n\r\nReal Sociedad\r\n\r\n(10)  17 \r\n\r\nSevilla FC\r\n\r\n\n\n(10)  27 \r\n\r\nFC Barcelona\r\n\r\n(10)  25 \r\n\r\nAtletico Madrid\r\n\r\n(10)  24 \r\n\r\nReal Madrid": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "Latest results": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "99 matches played / 380\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n26.1% completed": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "F.A.Q.": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            }
+        }
     },
     "bundesliga": {
         "nome_lega": "Bundesliga",
-        "squadre": {}
+        "squadre": {
+            "AR": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "10": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 3.0,
+                    "gs": 9.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.0,
+                    "gs": 5.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "11": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 9.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.33,
+                    "gs": 1.33,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.67,
+                    "gs": 5.17,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "12": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 3.0,
+                    "gs": 8.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.1,
+                    "gs": 1.2,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.05,
+                    "gs": 4.6,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "13": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 3.0,
+                    "gs": 8.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.49,
+                    "gs": 1.49,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.25,
+                    "gs": 4.75,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "14": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 8.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.5,
+                    "gs": 4.5,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "15": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 6.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.33,
+                    "gs": 1.33,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.67,
+                    "gs": 3.67,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "16": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 6.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.5,
+                    "gs": 3.5,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "17": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 3.0,
+                    "gs": 6.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 3.03,
+                    "gs": 3.03,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 3.02,
+                    "gs": 4.52,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "18": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 3.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.33,
+                    "gs": 1.33,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.67,
+                    "gs": 2.17,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "Points\n\n\n\nGP\npts\n\n\n\n\nBayern Munich\n7\n\r\n17\r\n\n\n\n\n\nDortmund\n7\n\r\n17\r\n\n\n\n\n\nFreiburg\n7\n\r\n13\r\n\n\n\n\n\nLeverkusen\n7\n\r\n13\r\n\n\n\n\n\nRB Leipzig\n7\n\r\n12\r\n\n\n\n\n\nWerder Bremen\n7\n\r\n12\r\n\n\n\n\n\nFSV Mainz\n7\n\r\n10\r\n\n\n\n\n\nElversberg\n7\n\r\n10\r\n\n\n\n\n\nFC Augsburg\n7\n\r\n9\r\n\n\n\n\n\nHoffenheim\n7\n\r\n9\r\n\n\n\n\n\nHamburger SV\n7\n\r\n9\r\n\n\n\n\n\nFC Koln\n7\n\r\n8\r\n\n\n\n\n\nPaderborn\n7\n\r\n8\r\n\n\n\n\n\nE. Frankfurt\n7\n\r\n8\r\n\n\n\n\n\nStuttgart\n7\n\r\n6\r\n\n\n\n\n\nSchalke 04\n7\n\r\n6\r\n\n\n\n\n\nUnion Berlin\n7\n\r\n6\r\n\n\n\n\n\nMonchengladb.\n7\n\r\n3": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 7.0,
+                    "gs": 17.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 4.0,
+                    "gs": 9.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "Offence (last 8)\n\n\n\nGP\nGF\n\n\n\n\nBayern Munich\n7\n\r\n25\r\n\n\n\n\n\nRB Leipzig\n7\n\r\n20\r\n\n\n\n\n\nFC Augsburg\n7\n\r\n17\r\n\n\n\n\n\nFreiburg\n7\n\r\n16\r\n\n\n\n\n\nFSV Mainz\n7\n\r\n16\r\n\n\n\n\n\nLeverkusen\n7\n\r\n16\r\n\n\n\n\n\nWerder Bremen\n7\n\r\n15\r\n\n\n\n\n\nHoffenheim\n7\n\r\n14\r\n\n\n\n\n\nDortmund\n7\n\r\n12\r\n\n\n\n\n\nElversberg\n7\n\r\n12\r\n\n\n\n\n\nMonchengladb.\n7\n\r\n11\r\n\n\n\n\n\nE. Frankfurt\n7\n\r\n10\r\n\n\n\n\n\nStuttgart\n7\n\r\n10\r\n\n\n\n\n\nFC Koln\n7\n\r\n8\r\n\n\n\n\n\nHamburger SV\n7\n\r\n6\r\n\n\n\n\n\nPaderborn\n7\n\r\n6\r\n\n\n\n\n\nUnion Berlin\n7\n\r\n6\r\n\n\n\n\n\nSchalke 04\n7\n\r\n4": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 7.0,
+                    "gs": 25.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 4.0,
+                    "gs": 13.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "0 pt\n\n17 pts\n\n\n\n5th Segment\n4th Segment\n3rd Segment\n2nd Segment\n1st Segment\n\n\nup to 3.0 pts\nfrom 3.1 to 6.5 pts\nfrom 6.6 to 10.0 pts\nfrom 10.1 to 13.5 pts\nfrom 13.6 to 17 pts\n\n\n\n(7)  3 \r\n\r\nMonchengladbach\r\n\r\n\n\n(7)  6 \r\n\r\nStuttgart\r\n\r\n(7)  6 \r\n\r\nSchalke 04\r\n\r\n(7)  6 \r\n\r\nUnion Berlin\r\n\r\n\n\n(7)  10 \r\n\r\nFSV Mainz\r\n\r\n(7)  10 \r\n\r\nElversberg\r\n\r\n(7)  9 \r\n\r\nFC Augsburg\r\n\r\n(7)  9 \r\n\r\nHoffenheim\r\n\r\n(7)  9 \r\n\r\nHamburger SV\r\n\r\n(7)  8 \r\n\r\nFC Koln\r\n\r\n(7)  8 \r\n\r\nPaderborn\r\n\r\n(7)  8 \r\n\r\nE. Frankfurt\r\n\r\n\n\n(7)  13 \r\n\r\nFreiburg\r\n\r\n(7)  13 \r\n\r\nLeverkusen\r\n\r\n(7)  12 \r\n\r\nRB Leipzig\r\n\r\n(7)  12 \r\n\r\nWerder Bremen\r\n\r\n\n\n(7)  17 \r\n\r\nBayern Munich\r\n\r\n(7)  17 \r\n\r\nDortmund": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "Latest results": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "63 matches played / 306\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n20.6% completed": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "F.A.Q.": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            }
+        }
     },
     "ligue_1": {
         "nome_lega": "Ligue 1",
-        "squadre": {}
+        "squadre": {
+            "AR": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "10": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 11.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.33,
+                    "gs": 1.33,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.67,
+                    "gs": 6.17,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "11": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 10.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 0.67,
+                    "gs": 0.67,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.33,
+                    "gs": 5.33,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "12": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 10.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.33,
+                    "gs": 1.33,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.67,
+                    "gs": 5.67,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "13": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 9.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 0.8,
+                    "gs": 0.8,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.4,
+                    "gs": 4.9,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "14": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 3.0,
+                    "gs": 8.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 0.75,
+                    "gs": 0.75,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.88,
+                    "gs": 4.38,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "15": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 7.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 2.0,
+                    "gs": 2.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 3.0,
+                    "gs": 4.5,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "16": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 5.0,
+                    "gs": 7.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.67,
+                    "gs": 1.67,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 3.33,
+                    "gs": 4.33,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "17": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 5.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.5,
+                    "gs": 3.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "18": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 2.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 0.0,
+                    "gs": 4.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.0,
+                    "gs": 3.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "Points\n\n\n\nGP\npts\n\n\n\n\nParis SG\n8\n\r\n17\r\n\n\n\n\n\nRennes\n8\n\r\n16\r\n\n\n\n\n\nLille\n8\n\r\n15\r\n\n\n\n\n\nMonaco\n8\n\r\n15\r\n\n\n\n\n\nLyon\n8\n\r\n14\r\n\n\n\n\n\nParis FC\n8\n\r\n14\r\n\n\n\n\n\nLens\n8\n\r\n13\r\n\n\n\n\n\nMarseille\n8\n\r\n12\r\n\n\n\n\n\nLorient\n8\n\r\n12\r\n\n\n\n\n\nNice\n8\n\r\n11\r\n\n\n\n\n\nToulouse\n8\n\r\n10\r\n\n\n\n\n\nAuxerre\n8\n\r\n10\r\n\n\n\n\n\nBrest\n8\n\r\n9\r\n\n\n\n\n\nAngers\n8\n\r\n8\r\n\n\n\n\n\nLe Mans\n8\n\r\n7\r\n\n\n\n\n\nStrasbourg\n8\n\r\n7\r\n\n\n\n\n\nTroyes\n8\n\r\n5\r\n\n\n\n\n\nLe Havre\n8\n\r\n2": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 8.0,
+                    "gs": 17.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 4.5,
+                    "gs": 9.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "Offence (last 8)\n\n\n\nGP\nGF\n\n\n\n\nMarseille\n8\n\r\n18\r\n\n\n\n\n\nRennes\n8\n\r\n18\r\n\n\n\n\n\nLens\n8\n\r\n16\r\n\n\n\n\n\nParis SG\n8\n\r\n16\r\n\n\n\n\n\nBrest\n8\n\r\n14\r\n\n\n\n\n\nLyon\n8\n\r\n13\r\n\n\n\n\n\nParis FC\n8\n\r\n13\r\n\n\n\n\n\nAuxerre\n8\n\r\n12\r\n\n\n\n\n\nStrasbourg\n8\n\r\n12\r\n\n\n\n\n\nToulouse\n8\n\r\n12\r\n\n\n\n\n\nLe Mans\n8\n\r\n11\r\n\n\n\n\n\nLille\n8\n\r\n11\r\n\n\n\n\n\nMonaco\n8\n\r\n11\r\n\n\n\n\n\nAngers\n8\n\r\n9\r\n\n\n\n\n\nLe Havre\n8\n\r\n8\r\n\n\n\n\n\nNice\n8\n\r\n8\r\n\n\n\n\n\nLorient\n8\n\r\n7\r\n\n\n\n\n\nTroyes\n8\n\r\n5": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 8.0,
+                    "gs": 18.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 4.5,
+                    "gs": 9.5,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "0 pt\n\n17 pts\n\n\n\n5th Segment\n4th Segment\n3rd Segment\n2nd Segment\n1st Segment\n\n\nup to 3.0 pts\nfrom 3.1 to 6.5 pts\nfrom 6.6 to 10.0 pts\nfrom 10.1 to 13.5 pts\nfrom 13.6 to 17 pts\n\n\n\n(8)  2 \r\n\r\nLe Havre\r\n\r\n\n\n(8)  5 \r\n\r\nTroyes\r\n\r\n\n\n(8)  10 \r\n\r\nToulouse\r\n\r\n(8)  10 \r\n\r\nAuxerre\r\n\r\n(8)  9 \r\n\r\nBrest\r\n\r\n(8)  8 \r\n\r\nAngers\r\n\r\n(8)  7 \r\n\r\nLe Mans\r\n\r\n(8)  7 \r\n\r\nStrasbourg\r\n\r\n\n\n(8)  13 \r\n\r\nLens\r\n\r\n(8)  12 \r\n\r\nMarseille\r\n\r\n(8)  12 \r\n\r\nLorient\r\n\r\n(8)  11 \r\n\r\nNice\r\n\r\n\n\n(8)  17 \r\n\r\nParis SG\r\n\r\n(8)  16 \r\n\r\nRennes\r\n\r\n(8)  15 \r\n\r\nLille\r\n\r\n(8)  15 \r\n\r\nMonaco\r\n\r\n(8)  14 \r\n\r\nLyon\r\n\r\n(8)  14 \r\n\r\nParis FC": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "Latest results": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "72 matches played / 267\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n27.0% completed": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "F.A.Q.": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            }
+        }
     },
     "svizzera": {
         "nome_lega": "Super League",
-        "squadre": {}
+        "squadre": {
+            "AR": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "10": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 6.0,
+                    "gs": 9.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.1,
+                    "gs": 1.2,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 3.55,
+                    "gs": 5.1,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "11": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 6.0,
+                    "gs": 9.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.2,
+                    "gs": 1.2,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 3.6,
+                    "gs": 5.1,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "12": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 6.0,
+                    "gs": 6.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.49,
+                    "gs": 1.49,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 3.75,
+                    "gs": 3.75,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "Points\n\n\n\nGP\npts\n\n\n\n\nLugano\n11\n\r\n31\r\n\n\n\n\n\nBSC Young Bo.\n11\n\r\n25\r\n\n\n\n\n\nSion\n11\n\r\n22\r\n\n\n\n\n\nFC Zurich\n11\n\r\n17\r\n\n\n\n\n\nServette\n11\n\r\n16\r\n\n\n\n\n\nSt. Gallen\n11\n\r\n16\r\n\n\n\n\n\nFC Basel\n11\n\r\n14\r\n\n\n\n\n\nLuzern\n11\n\r\n12\r\n\n\n\n\n\nThun\n11\n\r\n10\r\n\n\n\n\n\nVaduz\n11\n\r\n9\r\n\n\n\n\n\nGrasshopper\n11\n\r\n9\r\n\n\n\n\n\nLausanne Spo.\n11\n\r\n6": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 11.0,
+                    "gs": 31.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 6.0,
+                    "gs": 16.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "Offence (last 8)\n\n\n\nGP\nGF\n\n\n\n\nBSC Young Bo.\n8\n\r\n23\r\n\n\n\n\n\nLugano\n8\n\r\n23\r\n\n\n\n\n\nFC Zurich\n8\n\r\n17\r\n\n\n\n\n\nVaduz\n8\n\r\n17\r\n\n\n\n\n\nSion\n8\n\r\n16\r\n\n\n\n\n\nLuzern\n8\n\r\n15\r\n\n\n\n\n\nThun\n8\n\r\n14\r\n\n\n\n\n\nServette\n8\n\r\n13\r\n\n\n\n\n\nFC Basel\n8\n\r\n12\r\n\n\n\n\n\nGrasshopper\n8\n\r\n10\r\n\n\n\n\n\nSt. Gallen\n8\n\r\n10\r\n\n\n\n\n\nLausanne Spo.\n8\n\r\n3": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 8.0,
+                    "gs": 23.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 4.5,
+                    "gs": 12.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "0 pt\n\n31 pts\n\n\n\n5th Segment\n4th Segment\n3rd Segment\n2nd Segment\n1st Segment\n\n\nup to 5.8 pts\nfrom 5.9 to 12.1 pts\nfrom 12.2 to 18.4 pts\nfrom 18.5 to 24.7 pts\nfrom 24.8 to 31 pts\n\n\n\n\n\n(11)  12 \r\n\r\nLuzern\r\n\r\n(11)  10 \r\n\r\nThun\r\n\r\n(11)  9 \r\n\r\nVaduz\r\n\r\n(11)  9 \r\n\r\nGrasshopper\r\n\r\n(11)  6 \r\n\r\nLausanne Sport\r\n\r\n\n\n(11)  17 \r\n\r\nFC Zurich\r\n\r\n(11)  16 \r\n\r\nServette\r\n\r\n(11)  16 \r\n\r\nSt. Gallen\r\n\r\n(11)  14 \r\n\r\nFC Basel\r\n\r\n\n\n(11)  22 \r\n\r\nSion\r\n\r\n\n\n(11)  31 \r\n\r\nLugano\r\n\r\n(11)  25 \r\n\r\nBSC Young Boys": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "Latest results": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "66 matches played / 132\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n50.0% completed": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "F.A.Q.": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            }
+        }
     },
     "olanda": {
         "nome_lega": "Eredivisie",
-        "squadre": {}
+        "squadre": {
+            "AR": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "10": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 5.0,
+                    "gs": 12.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 0.62,
+                    "gs": 0.62,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.81,
+                    "gs": 6.31,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "11": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 5.0,
+                    "gs": 12.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 0.71,
+                    "gs": 0.71,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.86,
+                    "gs": 6.36,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "12": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 11.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 0.57,
+                    "gs": 0.57,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.29,
+                    "gs": 5.79,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "13": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 6.0,
+                    "gs": 11.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 0.75,
+                    "gs": 0.75,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 3.38,
+                    "gs": 5.88,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "14": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 9.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.5,
+                    "gs": 5.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "15": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 5.0,
+                    "gs": 8.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 3.0,
+                    "gs": 4.5,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "16": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 5.0,
+                    "gs": 6.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.25,
+                    "gs": 1.25,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 3.12,
+                    "gs": 3.62,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "17": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 5.0,
+                    "gs": 6.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 2.5,
+                    "gs": 2.5,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 3.75,
+                    "gs": 4.25,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "18": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 5.0,
+                    "gs": 2.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 0.0,
+                    "gs": 5.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.5,
+                    "gs": 3.5,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "Points\n\n\n\nGP\npts\n\n\n\n\nFeyenoord\n10\n\r\n24\r\n\n\n\n\n\nAjax Amsterd.\n10\n\r\n21\r\n\n\n\n\n\nPSV Eindhoven\n10\n\r\n20\r\n\n\n\n\n\nFC Twente\n10\n\r\n20\r\n\n\n\n\n\nAZ Alkmaar\n10\n\r\n20\r\n\n\n\n\n\nFortuna Sitt.\n10\n\r\n18\r\n\n\n\n\n\nHeerenveen\n10\n\r\n15\r\n\n\n\n\n\nFC Groningen\n10\n\r\n15\r\n\n\n\n\n\nGo Ahead Eag.\n10\n\r\n14\r\n\n\n\n\n\nCambuur\n10\n\r\n12\r\n\n\n\n\n\nFC Utrecht\n10\n\r\n12\r\n\n\n\n\n\nNEC Nijmegen\n10\n\r\n11\r\n\n\n\n\n\nExcelsior\n10\n\r\n11\r\n\n\n\n\n\nSparta\n10\n\r\n9\r\n\n\n\n\n\nPEC Zwolle\n10\n\r\n8\r\n\n\n\n\n\nTelstar\n10\n\r\n6\r\n\n\n\n\n\nADO Den Haag\n10\n\r\n6\r\n\n\n\n\n\nWillem II\n10\n\r\n2": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 10.0,
+                    "gs": 24.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 5.5,
+                    "gs": 12.5,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "Offence (last 8)\n\n\n\nGP\nGF\n\n\n\n\nFeyenoord\n8\n\r\n29\r\n\n\n\n\n\nAjax Amsterd.\n8\n\r\n25\r\n\n\n\n\n\nPSV Eindhoven\n8\n\r\n24\r\n\n\n\n\n\nCambuur\n8\n\r\n18\r\n\n\n\n\n\nFC Groningen\n8\n\r\n18\r\n\n\n\n\n\nGo Ahead Eag.\n8\n\r\n17\r\n\n\n\n\n\nFC Twente\n8\n\r\n16\r\n\n\n\n\n\nFC Utrecht\n8\n\r\n15\r\n\n\n\n\n\nHeerenveen\n8\n\r\n15\r\n\n\n\n\n\nAZ Alkmaar\n8\n\r\n14\r\n\n\n\n\n\nSparta\n8\n\r\n14\r\n\n\n\n\n\nADO Den Haag\n8\n\r\n12\r\n\n\n\n\n\nFortuna Sitt.\n8\n\r\n12\r\n\n\n\n\n\nNEC Nijmegen\n8\n\r\n12\r\n\n\n\n\n\nExcelsior\n8\n\r\n11\r\n\n\n\n\n\nPEC Zwolle\n8\n\r\n10\r\n\n\n\n\n\nTelstar\n8\n\r\n9\r\n\n\n\n\n\nWillem II\n8\n\r\n8": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 8.0,
+                    "gs": 29.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 4.5,
+                    "gs": 15.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "0 pt\n\n24 pts\n\n\n\n5th Segment\n4th Segment\n3rd Segment\n2nd Segment\n1st Segment\n\n\nup to 4.4 pts\nfrom 4.5 to 9.3 pts\nfrom 9.4 to 14.2 pts\nfrom 14.3 to 19.1 pts\nfrom 19.2 to 24 pts\n\n\n\n(10)  2 \r\n\r\nWillem II\r\n\r\n\n\n(10)  9 \r\n\r\nSparta\r\n\r\n(10)  8 \r\n\r\nPEC Zwolle\r\n\r\n(10)  6 \r\n\r\nTelstar\r\n\r\n(10)  6 \r\n\r\nADO Den Haag\r\n\r\n\n\n(10)  14 \r\n\r\nGo Ahead Eagles\r\n\r\n(10)  12 \r\n\r\nCambuur\r\n\r\n(10)  12 \r\n\r\nFC Utrecht\r\n\r\n(10)  11 \r\n\r\nNEC Nijmegen\r\n\r\n(10)  11 \r\n\r\nExcelsior\r\n\r\n\n\n(10)  18 \r\n\r\nFortuna Sittard\r\n\r\n(10)  15 \r\n\r\nHeerenveen\r\n\r\n(10)  15 \r\n\r\nFC Groningen\r\n\r\n\n\n(10)  24 \r\n\r\nFeyenoord\r\n\r\n(10)  21 \r\n\r\nAjax Amsterdam\r\n\r\n(10)  20 \r\n\r\nPSV Eindhoven\r\n\r\n(10)  20 \r\n\r\nFC Twente\r\n\r\n(10)  20 \r\n\r\nAZ Alkmaar": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "Latest results": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "90 matches played / 295\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n30.5% completed": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "F.A.Q.": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            }
+        }
     },
     "belgio": {
         "nome_lega": "Pro League",
-        "squadre": {}
+        "squadre": {
+            "AR": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "10": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 5.0,
+                    "gs": 11.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 3.0,
+                    "gs": 6.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "11": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 10.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.33,
+                    "gs": 1.33,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.67,
+                    "gs": 5.67,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "12": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 5.0,
+                    "gs": 10.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 5.0,
+                    "gs": 5.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 5.0,
+                    "gs": 7.5,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "13": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 5.0,
+                    "gs": 8.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.25,
+                    "gs": 1.25,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 3.12,
+                    "gs": 4.62,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "14": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 7.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.1,
+                    "gs": 1.2,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.55,
+                    "gs": 4.1,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "15": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 6.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 2.0,
+                    "gs": 2.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 3.0,
+                    "gs": 4.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "16": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 6.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 4.0,
+                    "gs": 4.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 4.0,
+                    "gs": 5.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "17": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 5.0,
+                    "gs": 3.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 2.5,
+                    "gs": 2.5,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 3.75,
+                    "gs": 2.75,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "18": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 3.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.1,
+                    "gs": 1.2,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.55,
+                    "gs": 2.1,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "Points\n\n\n\nGP\npts\n\n\n\n\nGent\n9\n\r\n25\r\n\n\n\n\n\nClub Brugge\n9\n\r\n24\r\n\n\n\n\n\nRoyale Union.\n9\n\r\n23\r\n\n\n\n\n\nCharleroi\n9\n\r\n21\r\n\n\n\n\n\nAnderlecht\n9\n\r\n16\r\n\n\n\n\n\nKRC Genk\n9\n\r\n15\r\n\n\n\n\n\nWesterlo\n9\n\r\n14\r\n\n\n\n\n\nLommel SK\n9\n\r\n12\r\n\n\n\n\n\nStandard Lie.\n9\n\r\n11\r\n\n\n\n\n\nZulte-Waregem\n9\n\r\n11\r\n\n\n\n\n\nAntwerp\n9\n\r\n10\r\n\n\n\n\n\nBeveren\n9\n\r\n10\r\n\n\n\n\n\nSint-Truiden\n9\n\r\n8\r\n\n\n\n\n\nLa Louviere\n9\n\r\n7\r\n\n\n\n\n\nKV Mechelen\n8\n\r\n6\r\n\n\n\n\n\nOH Leuven\n9\n\r\n6\r\n\n\n\n\n\nCercle Brugge\n9\n\r\n3\r\n\n\n\n\n\nKortrijk\n8\n\r\n3": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 9.0,
+                    "gs": 25.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 5.0,
+                    "gs": 13.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "Offence (last 8)\n\n\n\nGP\nGF\n\n\n\n\nWesterlo\n8\n\r\n23\r\n\n\n\n\n\nRoyale Union.\n8\n\r\n22\r\n\n\n\n\n\nClub Brugge\n8\n\r\n19\r\n\n\n\n\n\nGent\n8\n\r\n17\r\n\n\n\n\n\nKRC Genk\n8\n\r\n17\r\n\n\n\n\n\nSint-Truiden\n8\n\r\n16\r\n\n\n\n\n\nAntwerp\n8\n\r\n13\r\n\n\n\n\n\nCharleroi\n8\n\r\n13\r\n\n\n\n\n\nStandard Lie.\n8\n\r\n12\r\n\n\n\n\n\nBeveren\n8\n\r\n11\r\n\n\n\n\n\nLa Louviere\n8\n\r\n10\r\n\n\n\n\n\nLommel SK\n8\n\r\n10\r\n\n\n\n\n\nCercle Brugge\n8\n\r\n9\r\n\n\n\n\n\nKV Mechelen\n8\n\r\n9\r\n\n\n\n\n\nZulte-Waregem\n8\n\r\n8\r\n\n\n\n\n\nAnderlecht\n8\n\r\n7\r\n\n\n\n\n\nOH Leuven\n8\n\r\n7\r\n\n\n\n\n\nKortrijk\n8\n\r\n2": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 8.0,
+                    "gs": 23.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 4.5,
+                    "gs": 12.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "0 pt\n\n25 pts\n\n\n\n5th Segment\n4th Segment\n3rd Segment\n2nd Segment\n1st Segment\n\n\nup to 4.6 pts\nfrom 4.7 to 9.7 pts\nfrom 9.8 to 14.8 pts\nfrom 14.9 to 19.9 pts\nfrom 20.0 to 25 pts\n\n\n\n(9)  3 \r\n\r\nCercle Brugge\r\n\r\n(8)  3 \r\n\r\nKortrijk\r\n\r\n\n\n(9)  8 \r\n\r\nSint-Truiden\r\n\r\n(9)  7 \r\n\r\nLa Louviere\r\n\r\n(8)  6 \r\n\r\nKV Mechelen\r\n\r\n(9)  6 \r\n\r\nOH Leuven\r\n\r\n\n\n(9)  14 \r\n\r\nWesterlo\r\n\r\n(9)  12 \r\n\r\nLommel SK\r\n\r\n(9)  11 \r\n\r\nStandard Liege\r\n\r\n(9)  11 \r\n\r\nZulte-Waregem\r\n\r\n(9)  10 \r\n\r\nAntwerp\r\n\r\n(9)  10 \r\n\r\nBeveren\r\n\r\n\n\n(9)  16 \r\n\r\nAnderlecht\r\n\r\n(9)  15 \r\n\r\nKRC Genk\r\n\r\n\n\n(9)  25 \r\n\r\nGent\r\n\r\n(9)  24 \r\n\r\nClub Brugge\r\n\r\n(9)  23 \r\n\r\nRoyale Union SG\r\n\r\n(9)  21 \r\n\r\nCharleroi": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "Latest results": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "80 matches played / 306\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n26.1% completed": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "F.A.Q.": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            }
+        }
     },
     "turchia": {
         "nome_lega": "Süper Lig",
-        "squadre": {}
+        "squadre": {
+            "AR": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "10": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 5.0,
+                    "gs": 12.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 0.62,
+                    "gs": 0.62,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.81,
+                    "gs": 6.31,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "11": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 5.0,
+                    "gs": 12.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 0.71,
+                    "gs": 0.71,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.86,
+                    "gs": 6.36,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "12": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 11.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 4.0,
+                    "gs": 4.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 4.0,
+                    "gs": 7.5,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "13": {
+                "partita_giocate": 3,
+                "clean_sheets": "1/3",
+                "casa": {
+                    "gf": 5.0,
+                    "gs": 10.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 0.5,
+                    "gs": 0.5,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.75,
+                    "gs": 5.25,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "14": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 8.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 4.0,
+                    "gs": 4.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 4.0,
+                    "gs": 6.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "15": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 8.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 0.67,
+                    "gs": 0.67,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.33,
+                    "gs": 4.33,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "16": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 8.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.33,
+                    "gs": 1.33,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.67,
+                    "gs": 4.67,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "17": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 4.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.33,
+                    "gs": 1.33,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.67,
+                    "gs": 2.67,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "18": {
+                "partita_giocate": 1,
+                "clean_sheets": "0/1",
+                "casa": {
+                    "gf": 4.0,
+                    "gs": 3.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.1,
+                    "gs": 1.2,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 2.55,
+                    "gs": 2.1,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "Points\n\n\n\nGP\npts\n\n\n\n\nGalatasaray\n9\n\r\n22\r\n\n\n\n\n\nAmed SK\n9\n\r\n20\r\n\n\n\n\n\nTrabzonspor\n9\n\r\n19\r\n\n\n\n\n\nBesiktas\n9\n\r\n18\r\n\n\n\n\n\nFenerbahce\n9\n\r\n16\r\n\n\n\n\n\nKasimpasa\n9\n\r\n16\r\n\n\n\n\n\nKocaelispor\n9\n\r\n15\r\n\n\n\n\n\nErzurum BB\n9\n\r\n14\r\n\n\n\n\n\nCorum\n9\n\r\n13\r\n\n\n\n\n\nGoztepe\n9\n\r\n12\r\n\n\n\n\n\nAlanyaspor\n9\n\r\n12\r\n\n\n\n\n\nBasaksehir\n9\n\r\n11\r\n\n\n\n\n\nRizespor\n9\n\r\n10\r\n\n\n\n\n\nKonyaspor\n9\n\r\n8\r\n\n\n\n\n\nGaziantep\n9\n\r\n8\r\n\n\n\n\n\nGenclerbirli.\n9\n\r\n8\r\n\n\n\n\n\nSamsunspor\n9\n\r\n4\r\n\n\n\n\n\nEyupspor\n9\n\r\n3": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 9.0,
+                    "gs": 22.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 5.0,
+                    "gs": 11.5,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "Offence (last 8)\n\n\n\nGP\nGF\n\n\n\n\nFenerbahce\n8\n\r\n22\r\n\n\n\n\n\nTrabzonspor\n8\n\r\n21\r\n\n\n\n\n\nAmed SK\n8\n\r\n17\r\n\n\n\n\n\nBesiktas\n8\n\r\n17\r\n\n\n\n\n\nGalatasaray\n8\n\r\n17\r\n\n\n\n\n\nCorum\n8\n\r\n16\r\n\n\n\n\n\nGoztepe\n8\n\r\n16\r\n\n\n\n\n\nKasimpasa\n8\n\r\n12\r\n\n\n\n\n\nKocaelispor\n8\n\r\n11\r\n\n\n\n\n\nBasaksehir\n8\n\r\n10\r\n\n\n\n\n\nRizespor\n8\n\r\n10\r\n\n\n\n\n\nAlanyaspor\n8\n\r\n8\r\n\n\n\n\n\nErzurum BB\n8\n\r\n8\r\n\n\n\n\n\nGaziantep\n8\n\r\n8\r\n\n\n\n\n\nKonyaspor\n8\n\r\n6\r\n\n\n\n\n\nGenclerbirli.\n8\n\r\n5\r\n\n\n\n\n\nSamsunspor\n8\n\r\n5\r\n\n\n\n\n\nEyupspor\n8\n\r\n2": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 8.0,
+                    "gs": 22.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 4.5,
+                    "gs": 11.5,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "0 pt\n\n22 pts\n\n\n\n5th Segment\n4th Segment\n3rd Segment\n2nd Segment\n1st Segment\n\n\nup to 4.0 pts\nfrom 4.1 to 8.5 pts\nfrom 8.6 to 13.0 pts\nfrom 13.1 to 17.5 pts\nfrom 17.6 to 22 pts\n\n\n\n(9)  3 \r\n\r\nEyupspor\r\n\r\n\n\n(9)  8 \r\n\r\nKonyaspor\r\n\r\n(9)  8 \r\n\r\nGaziantep\r\n\r\n(9)  8 \r\n\r\nGenclerbirligi\r\n\r\n\n\n(9)  13 \r\n\r\nCorum\r\n\r\n(9)  12 \r\n\r\nGoztepe\r\n\r\n(9)  12 \r\n\r\nAlanyaspor\r\n\r\n(9)  11 \r\n\r\nBasaksehir\r\n\r\n(9)  10 \r\n\r\nRizespor\r\n\r\n\n\n(9)  16 \r\n\r\nFenerbahce\r\n\r\n(9)  16 \r\n\r\nKasimpasa\r\n\r\n(9)  15 \r\n\r\nKocaelispor\r\n\r\n(9)  14 \r\n\r\nErzurum BB\r\n\r\n\n\n(9)  22 \r\n\r\nGalatasaray\r\n\r\n(9)  20 \r\n\r\nAmed SK\r\n\r\n(9)  19 \r\n\r\nTrabzonspor\r\n\r\n(9)  18 \r\n\r\nBesiktas\r\n\r\n(9)  4 \r\n\r\nSamsunspor": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "Latest results": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "81 matches played / 306\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n26.5% completed": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            },
+            "F.A.Q.": {
+                "partita_giocate": 2,
+                "clean_sheets": "0/2",
+                "casa": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 13.5,
+                    "tiri_subiti": 10.2,
+                    "corner_fatti": 5.5,
+                    "corner_concessi": 4.2,
+                    "cartellini_fatti": 2.0,
+                    "cartellini_subiti": 2.1
+                },
+                "fuori": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 11.2,
+                    "tiri_subiti": 13.8,
+                    "corner_fatti": 4.3,
+                    "corner_concessi": 5.6,
+                    "cartellini_fatti": 2.2,
+                    "cartellini_subiti": 1.9
+                },
+                "ultime_6": {
+                    "gf": 1.0,
+                    "gs": 1.0,
+                    "tiri_fatti": 12.4,
+                    "tiri_subiti": 11.5,
+                    "corner_fatti": 4.9,
+                    "corner_concessi": 4.8,
+                    "cartellini_fatti": 2.1,
+                    "cartellini_subiti": 2.0
+                }
+            }
+        }
     },
     "champions": {
         "nome_lega": "Champions League",
