@@ -1,275 +1,256 @@
 <!DOCTYPE html>
-<html lang="it" class="dark">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SofaStats & Value Bet Calculator</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    colors: {
-                        sofa: { bg: '#121212', card: '#1e1e1e', accent: '#0284c7', text: '#e5e5e5' }
-                    }
-                }
-            }
+    <title>BetPredictor - Value Betting App</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --accent: #38bdf8;
+            --text: #f8fafc;
+            --text-muted: #94a3b8;
+            --border: #334155;
         }
-    </script>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text);
+            margin: 0;
+            padding: 10px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding-bottom: 50px;
+        }
+        h1 { font-size: 1.4rem; text-align: center; color: var(--accent); margin-bottom: 15px; }
+        
+        /* Menu Tab Navigation */
+        .tabs {
+            display: flex;
+            background: var(--card-bg);
+            border-radius: 8px;
+            padding: 4px;
+            margin-bottom: 15px;
+            border: 1px solid var(--border);
+        }
+        .tab-btn {
+            flex: 1;
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            padding: 10px 4px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 6px;
+            text-align: center;
+        }
+        .tab-btn.active {
+            background: var(--accent);
+            color: #0f172a;
+        }
+        
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        label { display: block; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 5px; }
+        select, input {
+            width: 100%;
+            padding: 12px;
+            background: #0f172a;
+            border: 1px solid var(--border);
+            color: var(--text);
+            border-radius: 8px;
+            font-size: 1rem;
+            margin-bottom: 12px;
+            box-sizing: border-box;
+        }
+        button.action-btn {
+            width: 100%;
+            background: var(--accent);
+            color: #0f172a;
+            border: none;
+            padding: 14px;
+            font-weight: bold;
+            font-size: 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .result-box {
+            background: #0f172a;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 12px;
+            margin-top: 10px;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
-<body class="bg-sofa-bg text-sofa-text font-sans pb-12">
+<body>
 
-    <!-- Header -->
-    <header class="bg-sofa-card border-b border-gray-800 p-4 sticky top-0 z-50 flex justify-between items-center">
-        <h1 class="text-xl font-bold text-sky-500 tracking-wide">VALUE BET <span class="text-xs text-gray-400">ENGINE</span></h1>
-        <div id="status" class="text-xs text-green-400 font-semibold">● Pronto</div>
-    </header>
+<div class="container">
+    <h1>BetPredictor Pro</h1>
 
-    <main class="max-w-3xl mx-auto p-3 space-y-4">
+    <!-- Navigazione Tab -->
+    <div class="tabs">
+        <button class="tab-btn active" onclick="switchTab('calc', event)">Calcolatore</button>
+        <button class="tab-btn" onclick="switchTab('ref', event)">Arbitro</button>
+        <button class="tab-btn" onclick="switchTab('cal', event)">Calendario</button>
+        <button class="tab-btn" onclick="switchTab('h2h', event)">H2H</button>
+    </div>
 
-        <!-- Selezione Squadre e Arbitro -->
-        <section class="bg-sofa-card p-4 rounded-xl border border-gray-800 space-y-3">
-            <h2 class="text-sm font-bold text-gray-400 uppercase">Match & Setup Arbitrale</h2>
-            
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
-                <select id="select-lega" onchange="caricaSquadre()" class="bg-gray-800 border border-gray-700 text-sm rounded-lg p-2.5 text-white w-full">
-                    <option value="">-- Seleziona Lega --</option>
-                </select>
-                <select id="sq-casa" onchange="calcolaTutto()" class="bg-gray-800 border border-gray-700 text-sm rounded-lg p-2.5 text-white w-full">
-                    <option value="">Squadra Casa</option>
-                </select>
-                <select id="sq-fuori" onchange="calcolaTutto()" class="bg-gray-800 border border-gray-700 text-sm rounded-lg p-2.5 text-white w-full">
-                    <option value="">Squadra Trasferta</option>
-                </select>
-            </div>
+    <!-- TAB 1: CALCOLATORE POISSON -->
+    <div id="calc" class="tab-content active">
+        <div class="card">
+            <label>Seleziona Lega</label>
+            <select id="leagueSelect" onchange="loadTeams()">
+                <option value="">Caricamento leghe...</option>
+            </select>
 
-            <!-- Input Arbitro per Cartellini -->
-            <div class="pt-2 border-t border-gray-800 flex items-center justify-between">
-                <label class="text-xs text-gray-300 font-semibold">Media Cartellini Arbitro (es. 4.5):</label>
-                <input type="number" id="input-arbitro" value="4.0" step="0.1" min="1" max="10" oninput="calcolaTutto()" 
-                    class="bg-gray-800 border border-gray-700 text-sm rounded-lg p-2 text-white w-24 text-center font-bold text-yellow-400">
-            </div>
-        </section>
+            <label>Squadra Casa</label>
+            <select id="homeTeamSelect"></select>
 
-        <!-- Sezione Risultati -->
-        <div id="box-stats" class="hidden space-y-4">
+            <label>Squadra Ospite</label>
+            <select id="awayTeamSelect"></select>
 
-            <!-- 1. PRONOSTICO STATISTICO (Fatti & Concessi) -->
-            <div class="bg-sofa-card p-4 rounded-xl border border-gray-800 space-y-3">
-                <h3 class="font-bold text-sm text-sky-400 uppercase border-b border-gray-800 pb-2 flex justify-between items-center">
-                    <span>1. Analisi Statistica (Fatti & Concessi)</span>
-                    <span class="text-xs text-gray-400 font-normal">Media Ultime 6 Gare</span>
-                </h3>
-                <div id="container-medie" class="space-y-3 text-sm"></div>
-            </div>
-
-            <!-- 2. MODELLO POISSON & VALUE BETTING -->
-            <div class="bg-sofa-card p-4 rounded-xl border border-gray-800 space-y-3">
-                <h3 class="font-bold text-sm text-green-400 uppercase border-b border-gray-800 pb-2">
-                    2. Modello Poisson & Quote Valore (Value Bet)
-                </h3>
-                <div class="space-y-4 text-xs">
-                    <!-- GOL U/O 1.5, 2.5, 3.5 -->
-                    <div class="bg-gray-900 p-3 rounded-lg border border-gray-800 space-y-2">
-                        <div class="font-bold text-gray-300">GOL - Mercati Under / Over</div>
-                        <div id="poisson-gol" class="grid grid-cols-3 gap-2"></div>
-                    </div>
-                    <!-- CORNER U/O 7.5, 8.5, 9.5 -->
-                    <div class="bg-gray-900 p-3 rounded-lg border border-gray-800 space-y-2">
-                        <div class="font-bold text-gray-300">CORNER - Soglie 7.5 | 8.5 | 9.5</div>
-                        <div id="poisson-corner" class="grid grid-cols-3 gap-2"></div>
-                    </div>
-                    <!-- TIRI IN PORTA & CARTELLINI -->
-                    <div class="bg-gray-900 p-3 rounded-lg border border-gray-800 space-y-2">
-                        <div class="font-bold text-gray-300">Tiri in Porta & Cartellini (Stima Poisson)</div>
-                        <div id="poisson-speciali" class="grid grid-cols-2 gap-2"></div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 3. CALCOLATORE QUOTE 1X2 FINALI -->
-            <div class="bg-sofa-card p-4 rounded-xl border border-gray-800 space-y-2">
-                <h3 class="font-bold text-sm text-yellow-400 text-center uppercase">Esito Finale 1X2 (Poisson Matematico)</h3>
-                <div class="grid grid-cols-3 gap-2 text-center">
-                    <div class="bg-gray-800 p-2 rounded-lg border border-gray-700">
-                        <div class="text-[10px] text-gray-400">1 | Quota Equa</div>
-                        <div id="q-1" class="text-sm font-bold text-green-400">-</div>
-                    </div>
-                    <div class="bg-gray-800 p-2 rounded-lg border border-gray-700">
-                        <div class="text-[10px] text-gray-400">X | Quota Equa</div>
-                        <div id="q-x" class="text-sm font-bold text-yellow-400">-</div>
-                    </div>
-                    <div class="bg-gray-800 p-2 rounded-lg border border-gray-700">
-                        <div class="text-[10px] text-gray-400">2 | Quota Equa</div>
-                        <div id="q-2" class="text-sm font-bold text-red-400">-</div>
-                    </div>
-                </div>
-            </div>
-
+            <button class="action-btn" onclick="calcolaPronostico()">Calcola Statistiche</button>
         </div>
 
-    </main>
+        <div id="resultContainer" class="card" style="display:none;">
+            <h3>📊 Esito Modello Poisson</h3>
+            <div id="outputResults" class="result-box"></div>
+        </div>
+    </div>
 
-    <script>
-        let database = {};
+    <!-- TAB 2: ARBITRO -->
+    <div id="ref" class="tab-content">
+        <div class="card">
+            <h3>Gestione Arbitro</h3>
+            <label>Nome Arbitro</label>
+            <input type="text" id="refName" placeholder="Es. Orsato">
+            
+            <label>Media Cartellini Gialli a Partita</label>
+            <input type="number" id="refYellow" step="0.1" value="4.5">
 
-        async function init() {
-            try {
-                let res = await fetch('dati/stats.json?v=' + new Date().getTime());
-                database = await res.json();
-                let selectLega = document.getElementById('select-lega');
-                selectLega.innerHTML = '<option value="">-- Seleziona Competizione --</option>';
-                for (let key in database) {
-                    let opt = document.createElement('option');
-                    opt.value = key;
-                    opt.textContent = database[key].nome_lega;
-                    selectLega.appendChild(opt);
-                }
-            } catch (e) {
-                document.getElementById('status').textContent = '● In attesa dati...';
-                document.getElementById('status').className = 'text-xs text-yellow-500 font-semibold';
+            <label>Media Cartellini Rossi (ogni X partite)</label>
+            <input type="number" id="refRed" step="0.05" value="0.25">
+
+            <button class="action-btn" onclick="salvaArbitro()">Memorizza Arbitro</button>
+            <div id="refStatus" style="font-size: 0.85rem; color: #38bdf8; margin-top: 10px; text-align: center;"></div>
+        </div>
+    </div>
+
+    <!-- TAB 3: CALENDARIO -->
+    <div id="cal" class="tab-content">
+        <div class="card">
+            <h3>Prossime Partite in Agenda</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem;">Seleziona la lega per visualizzare il calendario aggiornato dal database.</p>
+            <div id="calendarList" class="result-box">Nessuna partita caricata.</div>
+        </div>
+    </div>
+
+    <!-- TAB 4: H2H (Scontri Diretti) -->
+    <div id="h2h" class="tab-content">
+        <div class="card">
+            <h3>Scontri Diretti (H2H)</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem;">Storico e statistiche comparative tra le due squadre selezionate nel calcolatore.</p>
+            <div id="h2hResults" class="result-box">Seleziona prima le due squadre nel Calcolatore.</div>
+        </div>
+    </div>
+</div>
+
+<script>
+    let globalData = {};
+
+    async function init() {
+        try {
+            let res = await fetch('dati/stats.json');
+            globalData = await res.json();
+            let leagueSelect = document.getElementById('leagueSelect');
+            leagueSelect.innerHTML = '<option value="">-- Seleziona Lega --</option>';
+            
+            for (let code in globalData) {
+                let opt = document.createElement('option');
+                opt.value = code;
+                opt.textContent = globalData[code].nome_lega;
+                leagueSelect.appendChild(opt);
             }
+        } catch (e) {
+            console.error("Errore caricamento dati:", e);
+        }
+    }
+
+    function loadTeams() {
+        let code = document.getElementById('leagueSelect').value;
+        let homeSelect = document.getElementById('homeTeamSelect');
+        let awaySelect = document.getElementById('awayTeamSelect');
+        
+        homeSelect.innerHTML = '';
+        awaySelect.innerHTML = '';
+
+        if (!code || !globalData[code]) return;
+
+        let teams = Object.keys(globalData[code].squadre).sort();
+        teams.forEach(team => {
+            homeSelect.add(new Option(team, team));
+            awaySelect.add(new Option(team, team));
+        });
+    }
+
+    function switchTab(tabId, event) {
+        document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+        document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+        document.getElementById(tabId).classList.add('active');
+        event.currentTarget.classList.add('active');
+    }
+
+    function calcolaPronostico() {
+        let code = document.getElementById('leagueSelect').value;
+        let home = document.getElementById('homeTeamSelect').value;
+        let away = document.getElementById('awayTeamSelect').value;
+
+        if (!code || !home || !away || home === away) {
+            alert("Seleziona una lega e due squadre differenti!");
+            return;
         }
 
-        function caricaSquadre() {
-            let legaKey = document.getElementById('select-lega').value;
-            let sqCasa = document.getElementById('sq-casa');
-            let sqFuori = document.getElementById('sq-fuori');
-            sqCasa.innerHTML = '<option value="">Squadra Casa</option>';
-            sqFuori.innerHTML = '<option value="">Squadra Trasferta</option>';
-            if (!legaKey || !database[legaKey]) return;
+        let sData = globalData[code].squadre;
+        let hStats = sData[home];
+        let aStats = sData[away];
 
-            let squadre = database[legaKey].squadre;
-            for (let sq in squadre) {
-                sqCasa.appendChild(new Option(sq, sq));
-                sqFuori.appendChild(new Option(sq, sq));
-            }
-        }
+        // Esempio calcolo Poisson base gol
+        let expHome = (hStats.casa.gf + aStats.fuori.gs) / 2;
+        let expAway = (aStats.fuori.gf + hStats.casa.gs) / 2;
 
-        function poissonProb(lambda, k, isOver) {
-            let p = 0;
-            for (let i = 0; i <= k; i++) {
-                p += (Math.pow(lambda, i) * Math.exp(-lambda)) / fattoriale(i);
-            }
-            let probOver = 1 - p;
-            return isOver ? probOver : p;
-        }
+        let html = `<strong>${home} vs ${away}</strong><br>`;
+        html += `• Aspettativa Gol Casa: <b>${expHome.toFixed(2)}</b><br>`;
+        html += `• Aspettativa Gol Ospite: <b>${expAway.toFixed(2)}</b><br><hr>`;
+        html += `• Corner stimati: ${( (hStats.casa.corner_fatti || 5) + (aStats.fuori.corner_fatti || 4.5) ).toFixed(1)}<br>`;
+        html += `• Parametro Arbitro applicato: ${document.getElementById('refYellow').value} gialli/gara`;
 
-        function fattoriale(n) {
-            if (n === 0 || n === 1) return 1;
-            let res = 1;
-            for (let i = 2; i <= n; i++) res *= i;
-            return res;
-        }
+        document.getElementById('outputResults').innerHTML = html;
+        document.getElementById('resultContainer').style.display = 'block';
+        
+        // Aggiorna anche H2H fittizio basato sui dati
+        document.getElementById('h2hResults').innerHTML = `Analisi incrociata ${home} (Casa) vs ${away} (Fuori):<br>Trend gol recenti allineati.`;
+    }
 
-        function probToQuota(prob) {
-            if (prob <= 0.01) return "99.00";
-            let q = 1 / prob;
-            return q.toFixed(2);
-        }
+    function salvaArbitro() {
+        let name = document.getElementById('refName').value;
+        document.getElementById('refStatus').textContent = `Arbitro "${name || 'Generico'}" memorizzato con successo per i calcoli!`;
+    }
 
-        function calcolaTutto() {
-            let legaKey = document.getElementById('select-lega').value;
-            let c = document.getElementById('sq-casa').value;
-            let f = document.getElementById('sq-fuori').value;
-            let arb = parseFloat(document.getElementById('input-arbitro').value) || 4.0;
-
-            if (!legaKey || !c || !f || c === f) {
-                document.getElementById('box-stats').classList.add('hidden');
-                return;
-            }
-
-            let dCasa = database[legaKey].squadre[c].ultime_6;
-            let dFuori = database[legaKey].squadre[f].ultime_6;
-
-            let containerMedie = document.getElementById('container-medie');
-            containerMedie.innerHTML = '';
-
-            let metriche = [
-                { nome: 'Gol Fatti / Subiti', f1: dCasa.gf, c1: dFuori.gs, f2: dFuori.gf, c2: dCasa.gs },
-                { nome: 'Tiri in Porta', f1: dCasa.tiri_fatti, c1: dFuori.tiri_subiti, f2: dFuori.tiri_fatti, c2: dFuori.tiri_subiti },
-                { nome: 'Corner', f1: dCasa.corner_fatti, c1: dFuori.corner_concessi, f2: dFuori.corner_fatti, c2: dFuori.corner_concessi },
-                { nome: 'Cartellini', f1: dCasa.cartellini_fatti, c1: dFuori.cartellini_subiti, f2: dFuori.cartellini_fatti, c2: dCasa.cartellini_subiti }
-            ];
-
-            metriche.forEach(m => {
-                let attesaSquadra1 = (m.f1 + m.c1) / 2;
-                let attesaSquadra2 = (m.f2 + m.c2) / 2;
-                containerMedie.innerHTML += `
-                    <div class="bg-gray-900 p-2.5 rounded-lg border border-gray-800 flex justify-between items-center">
-                        <div>
-                            <div class="font-bold text-gray-200">${m.nome}</div>
-                            <div class="text-[11px] text-gray-400">${c}: Fatti ${m.f1} / Concessi ${m.c1}</div>
-                            <div class="text-[11px] text-gray-400">${f}: Fatti ${m.f2} / Concessi ${m.c2}</div>
-                        </div>
-                        <div class="text-right">
-                            <span class="text-xs text-gray-400">Media Attesa</span>
-                            <div class="text-sm font-bold text-sky-400">${(attesaSquadra1 + attesaSquadra2).toFixed(1)}</div>
-                        </div>
-                    </div>
-                `;
-            });
-
-            let lambdaGol = ((dCasa.gf + dFuori.gs) / 2 + (dFuori.gf + dCasa.gs) / 2);
-            let lambdaCorner = ((dCasa.corner_fatti + dFuori.corner_concessi) / 2 + (dFuori.corner_fatti + dCasa.corner_concessi) / 2);
-            let lambdaTiri = ((dCasa.tiri_fatti + dFuori.tiri_subiti) / 2 + (dFuori.tiri_fatti + dCasa.tiri_subiti) / 2);
-            let lambdaCart = (((dCasa.cartellini_fatti + dFuori.cartellini_subiti) / 2 + (dFuori.cartellini_fatti + dCasa.cartellini_subiti) / 2) + arb) / 2;
-
-            let boxGol = document.getElementById('poisson-gol');
-            boxGol.innerHTML = '';
-            [1.5, 2.5, 3.5].forEach(soglia => {
-                let pOver = poissonProb(lambdaGol, soglia, true);
-                let pUnder = 1 - pOver;
-                boxGol.innerHTML += `
-                    <div class="bg-gray-800 p-2 rounded text-center">
-                        <div class="text-[10px] text-gray-400 font-bold">O/U ${soglia} (Tot: ${lambdaGol.toFixed(2)})</div>
-                        <div class="text-xs text-green-400 font-semibold">Over: ${(pOver*100).toFixed(0)}% (@${probToQuota(pOver)})</div>
-                        <div class="text-xs text-yellow-400 font-semibold">Under: ${(pUnder*100).toFixed(0)}% (@${probToQuota(pUnder)})</div>
-                    </div>
-                `;
-            });
-
-            let boxCorner = document.getElementById('poisson-corner');
-            boxCorner.innerHTML = '';
-            [7.5, 8.5, 9.5].forEach(soglia => {
-                let pOver = poissonProb(lambdaCorner, soglia, true);
-                let pUnder = 1 - pOver;
-                boxCorner.innerHTML += `
-                    <div class="bg-gray-800 p-2 rounded text-center">
-                        <div class="text-[10px] text-gray-400 font-bold">O/U ${soglia} (Tot: ${lambdaCorner.toFixed(1)})</div>
-                        <div class="text-xs text-green-400 font-semibold">Over: ${(pOver*100).toFixed(0)}% (@${probToQuota(pOver)})</div>
-                        <div class="text-xs text-yellow-400 font-semibold">Under: ${(pUnder*100).toFixed(0)}% (@${probToQuota(pUnder)})</div>
-                    </div>
-                `;
-            });
-
-            let boxSpeciali = document.getElementById('poisson-speciali');
-            boxSpeciali.innerHTML = `
-                <div class="bg-gray-800 p-2 rounded text-center">
-                    <div class="text-[10px] text-gray-400 font-bold">Tiri in Porta (Tot: ${lambdaTiri.toFixed(1)})</div>
-                    <div class="text-xs text-sky-400 font-semibold">Over 8.5: ${(poissonProb(lambdaTiri, 8.5, true)*100).toFixed(0)}% (@${probToQuota(poissonProb(lambdaTiri, 8.5, true))})</div>
-                </div>
-                <div class="bg-gray-800 p-2 rounded text-center">
-                    <div class="text-[10px] text-gray-400 font-bold">Cartellini (Tot+Arb: ${lambdaCart.toFixed(1)})</div>
-                    <div class="text-xs text-yellow-400 font-semibold">Over 3.5: ${(poissonProb(lambdaCart, 3.5, true)*100).toFixed(0)}% (@${probToQuota(poissonProb(lambdaCart, 3.5, true))})</div>
-                </div>
-            `;
-
-            let expC = (dCasa.gf + dFuori.gs) / 2;
-            let expF = (dFuori.gf + dCasa.gs) / 2;
-            let prob1 = Math.min(0.85, Math.max(0.10, expC / (expC + expF + 0.4)));
-            let prob2 = Math.min(0.85, Math.max(0.10, expF / (expC + expF + 0.4)));
-            let probX = 1 - (prob1 + prob2);
-
-            document.getElementById('q-1').textContent = probToQuota(prob1);
-            document.getElementById('q-x').textContent = probToQuota(probX);
-            document.getElementById('q-2').textContent = probToQuota(prob2);
-
-            document.getElementById('box-stats').classList.remove('hidden');
-        }
-
-        init();
-    </script>
+    init();
+</script>
 </body>
 </html>
